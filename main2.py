@@ -7,7 +7,7 @@ st.text("\n\n")
 
 
 
-whie True:
+while True:
   검색 = input("")
   if 검색==stop:
     break

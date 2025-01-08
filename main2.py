@@ -8,7 +8,7 @@ st.text("\n\n")
 
 
 while True:
-  a = input("")
+  a = st.text_input()
   if a==stop:
     break
   

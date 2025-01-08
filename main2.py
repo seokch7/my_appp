@@ -1,6 +1,7 @@
 import streamlit as st
 from openai import OpenAI
-client = OpenAI(api_key = API_KEY)
+API_key = st.text_input("api key:")
+client = OpenAI(api_key = API_key)
 st.title("나의 위키 앱")
 
 st.text("\n\n")

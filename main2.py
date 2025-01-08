@@ -8,7 +8,7 @@ st.text("\n\n")
 
 
 while True:
-  a = st.text_input()
+  a = st.text_input("무엇을 찾고 싶나요?:")
   if a==stop:
     break
   

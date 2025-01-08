@@ -22,7 +22,7 @@ while True:
     ]
   )
 
-print(completion.choices[0].message.content)
+  print(completion.choices[0].message.content)
 
   
   st.link_button("Go to 나무위키", f"https://namu.wiki/w/{a}")

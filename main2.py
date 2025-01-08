@@ -8,11 +8,11 @@ st.text("\n\n")
 
 
 while True:
-  검색 = input("")
-  if 검색==stop:
+  a = input("")
+  if a==stop:
     break
   
-  st.write(f"나무위키:https://namu.wiki/w/{검색}")
-  st.write(f"나무위키:https://ko.wikipedia.org/wiki/{검색}")
+  st.link_button("Go to 나무위키", f"https://namu.wiki/w/{a}")
+  st.link_button("Go to 위키백과",f"https://ko.wikipedia.org/wiki/{a}")
   
   
